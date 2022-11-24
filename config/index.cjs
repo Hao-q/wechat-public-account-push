@@ -13,13 +13,12 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '32af68ed5ae9b1be564db3cb97d0535d',
 
-  PROVINCE: '河北',
-  CITY: '保定',
-
   USERS: [
     {
       // 想要发送的人的名字
       name: '小白',
+      PROVINCE: '河北',
+      CITY: '保定',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ogz286dg9sp_8l_yDztyiENGdAj4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -48,6 +47,8 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '倩仔',
+      PROVINCE: '北京',
+      CITY: '房山',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ogz286fBMiZN4r3-TtACwhwn9Bvc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
