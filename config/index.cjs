@@ -17,14 +17,15 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '小白',
-      PROVINCE: '河北',
-      CITY: '保定',
+      province: '河北',
+      city: '保定',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ogz286dg9sp_8l_yDztyiENGdAj4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'aQsYgwd_9ZXMoB8-1q7_nrlHOizYkmQzY8aiu9QiEDs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-16',
+      horoscopeDateType: '今日',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -47,14 +48,15 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '倩仔',
-      PROVINCE: '北京',
-      CITY: '房山',
+      province: '北京',
+      city: '房山',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ogz286fBMiZN4r3-TtACwhwn9Bvc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'aQsYgwd_9ZXMoB8-1q7_nrlHOizYkmQzY8aiu9QiEDs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-25',
+      horoscopeDateType: '今日',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
